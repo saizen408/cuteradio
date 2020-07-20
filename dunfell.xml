@@ -34,7 +34,7 @@
     <project name="meta-security"
         remote="meta-security"
         revision="dunfell"
-        path="sources/meta-qt5"/>
+        path="sources/meta-security"/>
 
     <project name="meta-rpi"
         remote="meta-rpi"
