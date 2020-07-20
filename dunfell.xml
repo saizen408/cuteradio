@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="oe" fetch="git://git.openembedded.org"/>
+    <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+    <remote name="raspberrypi" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>
+    <remote name="qt" fetch="https://github.com/meta-qt5/"/>
+    <!-- <remote name="meta-raspberrypi" fetch="git://git.yoctoproject.org/meta-raspberrypi"/> -->
+    <remote name="meta-security" fetch="git://git.yoctoproject.org/meta-security.git"/>
+    <remote name="meta-rpi" fetch="git://github.com/jumpnow/meta-rpi"/>
+    <remote name="meta-jumpnow" fetch="https://github.com/jumpnow/meta-jumpnow.git"/>
+    <remote name="cuteradio" fetch="https://github.com/bstubert"/>
+
+    <project name="meta-openembedded"
+        remote="oe"
+        revision="dunfell"
+        path="sources/meta-openembedded"/>
+
+     <project name="poky"
+        remote="yocto"
+        revision="dunfell"
+        path="sources/poky"/>
+
+   <project name="meta-raspberrypi"
+        remote="raspberrypi"
+        revision="dunfell"
+        path="sources/meta-raspberrypi"/>
+
+    <project name="meta-qt5"
+        remote="qt"
+        revision="dunfell"
+        path="sources/meta-qt5"/>
+
+    <project name="meta-security"
+        remote="meta-security"
+        revision="dunfell"
+        path="sources/meta-qt5"/>
+
+    <project name="meta-rpi"
+        remote="meta-rpi"
+        revision="dunfell"
+        path="sources/meta-jumpnow"/>
+
+
+    <project name="meta-jumpnow"
+        remote="meta-jumpnow"
+        revision="dunfell"
+        path="sources/meta-jumpnow"/>
+
+    <project name="meta-cuteradio"
+        remote="cuteradio"
+        revision="warrior"
+        path="sources/meta-cuteradio"/>
+
+</manifest>
+
+
