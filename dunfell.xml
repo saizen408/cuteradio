@@ -43,7 +43,7 @@
 
 
     <project name="meta-jumpnow"
-        remote="jumpnow"
+        remote="origin"
         revision="dunfell"
         path="sources/meta-jumpnow"/>
 
