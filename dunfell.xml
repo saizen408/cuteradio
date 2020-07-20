@@ -8,7 +8,7 @@
     <!-- <remote name="meta-raspberrypi" fetch="git://git.yoctoproject.org/meta-raspberrypi"/> -->
     <remote name="security" fetch="git://git.yoctoproject.org/meta-security.git"/>
     <remote name="rpi" fetch="git://github.com/jumpnow/meta-rpi"/>
-    <remote name="jumpnow" fetch="https://github.com/jumpnow/meta-jumpnow.git"/>
+    <remote name="jumpnow" fetch="https://github.com/jumpnow/meta-jumpnow/"/>
     <remote name="cuteradio" fetch="https://github.com/bstubert"/>
 
     <project name="meta-openembedded"
