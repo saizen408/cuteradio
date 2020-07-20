@@ -39,7 +39,7 @@
     <project name="meta-rpi"
         remote="meta-rpi"
         revision="dunfell"
-        path="sources/meta-jumpnow"/>
+        path="sources/meta-rpi"/>
 
 
     <project name="meta-jumpnow"
