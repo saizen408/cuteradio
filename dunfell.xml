@@ -6,9 +6,9 @@
     <remote name="raspberrypi" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>
     <remote name="qt" fetch="https://github.com/meta-qt5/"/>
     <!-- <remote name="meta-raspberrypi" fetch="git://git.yoctoproject.org/meta-raspberrypi"/> -->
-    <remote name="meta-security" fetch="git://git.yoctoproject.org/meta-security.git"/>
-    <remote name="meta-rpi" fetch="git://github.com/jumpnow/meta-rpi"/>
-    <remote name="meta-jumpnow" fetch="https://github.com/jumpnow/meta-jumpnow.git"/>
+    <remote name="security" fetch="git://git.yoctoproject.org/meta-security.git"/>
+    <remote name="rpi" fetch="git://github.com/jumpnow/meta-rpi"/>
+    <remote name="jumpnow" fetch="https://github.com/jumpnow/meta-jumpnow.git"/>
     <remote name="cuteradio" fetch="https://github.com/bstubert"/>
 
     <project name="meta-openembedded"
@@ -32,18 +32,18 @@
         path="sources/meta-qt5"/>
 
     <project name="meta-security"
-        remote="meta-security"
+        remote="security"
         revision="dunfell"
         path="sources/meta-security"/>
 
     <project name="meta-rpi"
-        remote="meta-rpi"
+        remote="rpi"
         revision="dunfell"
         path="sources/meta-rpi"/>
 
 
     <project name="meta-jumpnow"
-        remote="meta-jumpnow"
+        remote="jumpnow"
         revision="dunfell"
         path="sources/meta-jumpnow"/>
 
