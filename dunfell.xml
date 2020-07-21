@@ -24,7 +24,7 @@
 
     <project name="meta-qt5"
         remote="qt"
-        revision="master"
+        revision="dunfell"
         path="sources/meta-qt5"/>
 
     <project name="meta-cuteradio"
