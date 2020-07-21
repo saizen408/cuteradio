@@ -5,10 +5,6 @@
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
     <remote name="raspberrypi" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>
     <remote name="qt" fetch="https://github.com/meta-qt5/"/>
-    <!-- <remote name="meta-raspberrypi" fetch="git://git.yoctoproject.org/meta-raspberrypi"/> -->
-    <remote name="security" fetch="git://git.yoctoproject.org/meta-security.git"/>
-    <remote name="rpi" fetch="git://github.com/jumpnow/meta-rpi"/>
-    <remote name="meta-jumpnow" fetch="https://github.com/jumpnow/meta-jumpnow/"/>
     <remote name="cuteradio" fetch="https://github.com/bstubert"/>
 
     <project name="meta-openembedded"
@@ -28,28 +24,12 @@
 
     <project name="meta-qt5"
         remote="qt"
-        revision="dunfell"
+        revision="master"
         path="sources/meta-qt5"/>
-
-    <project name="meta-security"
-        remote="security"
-        revision="dunfell"
-        path="sources/meta-security"/>
-
-    <project name="meta-rpi"
-        remote="rpi"
-        revision="dunfell"
-        path="sources/meta-rpi"/>
-
-
-    <project name="meta-jumpnow"
-        remote="meta-jumpnow"
-        revision="dunfell"
-        path="sources/meta-jumpnow"/>
 
     <project name="meta-cuteradio"
         remote="cuteradio"
-        revision="warrior"
+        revision="thud"
         path="sources/meta-cuteradio"/>
 
 </manifest>
