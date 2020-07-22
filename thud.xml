@@ -2,7 +2,6 @@
 <manifest>
 
     <remote name="oe" fetch="git://git.openembedded.org"/>
-    <remote name="oe-core" fetch="git://git.openembedded.org/openembedded-core"/>
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
     <remote name="raspberrypi" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>
     <remote name="qt" fetch="https://github.com/meta-qt5/"/>
@@ -14,7 +13,7 @@
         path="sources/meta-openembedded"/>
 
     <project name="openembedded-core"
-        remote="oe-core"
+        remote="oe"
         revision="thud"
         path="sources/openembedded-core"/>
 
