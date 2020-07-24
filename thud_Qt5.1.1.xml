@@ -41,7 +41,7 @@
     <project name="meta-qt5.1.1"
         remote="qt5.1.1"
         revision="dora"
-        path="sources/meta-qt5"/>
+        path="sources/meta-qt5.1.1"/>
 
     <project name="meta-cuteradio"
         remote="cuteradio"
