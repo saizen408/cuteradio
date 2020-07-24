@@ -13,6 +13,11 @@
         revision="thud"
         path="sources/meta-openembedded"/>
 
+    <project name="meta-openembedded"
+        remote="oe"
+        revision="dora"
+        path="sources/meta-openembedded/meta-ruby"/>
+
     <project name="openembedded-core"
         remote="oe"
         revision="thud"
