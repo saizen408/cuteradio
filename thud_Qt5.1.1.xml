@@ -5,6 +5,7 @@
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
     <remote name="raspberrypi" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>
     <remote name="qt" fetch="https://github.com/meta-qt5/"/>
+    <remote name="qt5.1.1" fetch="https://github.com/saizen408/meta-qt5/"/>
     <remote name="cuteradio" fetch="https://github.com/bstubert"/>
 
     <project name="meta-openembedded"
@@ -38,7 +39,7 @@
         path="sources/meta-qt5"/>
 
     <project name="meta-qt5.1.1"
-        remote="qt"
+        remote="qt5.1.1"
         revision="dora"
         path="sources/meta-qt5"/>
 
