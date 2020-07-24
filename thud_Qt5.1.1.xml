@@ -5,18 +5,13 @@
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
     <remote name="raspberrypi" fetch="https://git.yoctoproject.org/cgit/cgit.cgi"/>
     <remote name="qt" fetch="https://github.com/meta-qt5/"/>
-    <remote name="qt5.1.1" fetch="https://github.com/saizen408"/>
+    <remote name="qt5.1.1" fetch="https://github.com/saizen408/"/>
     <remote name="cuteradio" fetch="https://github.com/bstubert"/>
 
     <project name="meta-openembedded"
         remote="oe"
         revision="thud"
         path="sources/meta-openembedded"/>
-
-    <project name="meta-openembedded"
-        remote="oe"
-        revision="dora"
-        path="sources/meta-openembedded/meta-ruby"/>
 
     <project name="openembedded-core"
         remote="oe"
