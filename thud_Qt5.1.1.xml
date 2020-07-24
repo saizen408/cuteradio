@@ -29,6 +29,16 @@
 
     <project name="meta-qt5"
         remote="qt"
+        revision="thud"
+        path="sources/meta-qt5"/>
+
+    <project name="meta-qt5"
+        remote="qt"
+        revision="dora"
+        path="sources/meta-qt5"/>
+
+    <project name="meta-qt5.1.1"
+        remote="qt"
         revision="dora"
         path="sources/meta-qt5"/>
 
